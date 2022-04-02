@@ -1,5 +1,5 @@
 programa
-{/*4- Crie um algoritmo que leia duas notas para calcular a média do aluno e determinar se
+{/*4- Crie um algoritmo que leia duas notas para calcular a média do aluno e determinar se
 o mesmo foi aprovado ou reprovado. A média para aprovação é 7.*/
 	
 	funcao inicio()
@@ -13,7 +13,7 @@ o mesmo foi aprovado ou reprovado. A média para aprovação é 7.*/
 
 		media=(nota1+nota2)/2
 		se(media>=7 e media<=10){
-			escreva("Aluno aprovado, sua média é: "+ media)	
+			escreva("Aluno aprovado, sua média é: "+ media +"\nParabéns!!!")	
 		}
 		senao se (media<7 ){
 			escreva("Aluno reprovado, sua média é: "+ media)
@@ -27,7 +27,7 @@ o mesmo foi aprovado ou reprovado. A média para aprovação é 7.*/
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 372; 
+ * @POSICAO-CURSOR = 435; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
