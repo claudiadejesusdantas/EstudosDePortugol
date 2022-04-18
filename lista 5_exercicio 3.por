@@ -1,15 +1,18 @@
 programa
-{
-	inclua biblioteca Util
-	
+{	
 	funcao inicio()
 	{
-		inteiro contador = 0
+		inteiro ano
 
-		enquanto (contador<=100) {
-			escreva(contador+"\n")
-			contador++ 
-			Util.aguarde(100)
+		escreva("Digite o ano: ")
+		leia(ano)
+
+		se(ano%4==0){
+			escreva(ano+" é um ano bissexto.\n")
+		} 
+			
+		senao {
+			escreva(ano+" não é um ano bissexto.\n")
 		}
 	}
 }
@@ -18,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 172; 
+ * @POSICAO-CURSOR = 155; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

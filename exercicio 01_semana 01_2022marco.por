@@ -1,16 +1,19 @@
 programa
 {
-	inclua biblioteca Util
 	
 	funcao inicio()
 	{
-		inteiro contador = 0
+		cadeia Nome
+		cadeia Sobrenome
+		
+		escreva("Digite seu nome: ")
+		leia (Nome)
+		escreva("Digite seu sobrenome: ")
+		leia (Sobrenome)
 
-		enquanto (contador<=100) {
-			escreva(contador+"\n")
-			contador++ 
-			Util.aguarde(100)
-		}
+		
+		escreva ("Olá ",Nome,(" "), Sobrenome, ", seja bem-vindo(a)!")
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -18,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 172; 
+ * @POSICAO-CURSOR = 222; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

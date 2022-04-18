@@ -1,15 +1,11 @@
 programa
 {
-	inclua biblioteca Util
+	//crie um programa que exiba na tela os números inteiros de 100 até 0.
 	
 	funcao inicio()
 	{
-		inteiro contador = 0
-
-		enquanto (contador<=100) {
+		para(inteiro contador=100;contador>= 0; contador--) {
 			escreva(contador+"\n")
-			contador++ 
-			Util.aguarde(100)
 		}
 	}
 }
@@ -18,7 +14,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 172; 
+ * @POSICAO-CURSOR = 191; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

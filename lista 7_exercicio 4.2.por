@@ -1,15 +1,15 @@
 programa
 {
-	inclua biblioteca Util
 	
 	funcao inicio()
 	{
-		inteiro contador = 0
-
-		enquanto (contador<=100) {
-			escreva(contador+"\n")
-			contador++ 
-			Util.aguarde(100)
+	inteiro somatorio=0
+	
+		para(inteiro i=1;i<=500;i++) {
+			se(i%3==0 e i%2==1) {
+			somatorio = somatorio+i
+			escreva(somatorio+"\n")			
+			}
 		}
 	}
 }
@@ -18,9 +18,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 172; 
+ * @POSICAO-CURSOR = 56; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {somatorio, 6, 9, 9}-{i, 8, 15, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

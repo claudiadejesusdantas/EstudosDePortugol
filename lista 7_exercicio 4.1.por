@@ -1,15 +1,14 @@
 programa
 {
-	inclua biblioteca Util
 	
 	funcao inicio()
-	{
-		inteiro contador = 0
-
-		enquanto (contador<=100) {
-			escreva(contador+"\n")
-			contador++ 
-			Util.aguarde(100)
+	{	inteiro numero
+		leia(numero)
+	
+		para(inteiro i=1;i<numero;i++) {
+			se(i%2==0) {
+				escreva(i+",")
+			}
 		}
 	}
 }
@@ -18,7 +17,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 172; 
+ * @POSICAO-CURSOR = 88; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

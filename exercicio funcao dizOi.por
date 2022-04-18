@@ -1,16 +1,16 @@
 programa
 {
-	inclua biblioteca Util
-	
+	funcao vazio dizOi (cadeia nome) {
+		escreva("Oi "+nome)
+	}
 	funcao inicio()
 	{
-		inteiro contador = 0
-
-		enquanto (contador<=100) {
-			escreva(contador+"\n")
-			contador++ 
-			Util.aguarde(100)
-		}
+		cadeia nome
+		
+		escreva("Digite o seu nome: \n")
+		leia(nome)
+		
+		dizOi(nome)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -18,9 +18,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 172; 
+ * @POSICAO-CURSOR = 110; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {nome, 8, 9, 4};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

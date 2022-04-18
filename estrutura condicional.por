@@ -1,16 +1,23 @@
 programa
 {
-	inclua biblioteca Util
 	
 	funcao inicio()
 	{
-		inteiro contador = 0
+		inteiro idade
+		leia(idade)
 
-		enquanto (contador<=100) {
-			escreva(contador+"\n")
-			contador++ 
-			Util.aguarde(100)
+		/*
+		 * 
+		 * se(condição){
+		 * 		ação a ser executada
+			}
+			*/
+		se(idade >= 18){
+			escreva(" Usuário maior de idade")
 		}
+		
+		
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -18,7 +25,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 172; 
+ * @POSICAO-CURSOR = 129; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

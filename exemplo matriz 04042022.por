@@ -1,16 +1,16 @@
 programa
 {
-	inclua biblioteca Util
-	
 	funcao inicio()
 	{
-		inteiro contador = 0
+		inteiro matriz[5][3]
+		matriz[0][0]=60
+		escreva("Valor: "+matriz[0][0]+"\n")
+		escreva("Digite um número: ")
+		leia(matriz[1][2])
+		escreva("\nValor: "+ matriz[1][2]+"\n")
 
-		enquanto (contador<=100) {
-			escreva(contador+"\n")
-			contador++ 
-			Util.aguarde(100)
-		}
+
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -18,7 +18,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 172; 
+ * @POSICAO-CURSOR = 209; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

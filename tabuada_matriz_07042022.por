@@ -1,16 +1,21 @@
 programa
 {
-	inclua biblioteca Util
 	
 	funcao inicio()
 	{
-		inteiro contador = 0
+		inteiro tabuada[11][11]
 
-		enquanto (contador<=100) {
-			escreva(contador+"\n")
-			contador++ 
-			Util.aguarde(100)
+		para(inteiro fator1=1; fator1<=10; fator1++)
+		{
+			para(inteiro fator2=1; fator2<=10; fator2++)
+			{
+				tabuada[fator1][fator2] = fator1*fator2
+				escreva(tabuada[fator1][fator2] + " ")
+			}
+			escreva("\n")
 		}
+
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -18,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 172; 
+ * @POSICAO-CURSOR = 140; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

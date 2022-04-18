@@ -1,15 +1,16 @@
 programa
 {
-	inclua biblioteca Util
-	
 	funcao inicio()
 	{
-		inteiro contador = 0
+		inteiro matriz [4][4]
 
-		enquanto (contador<=100) {
-			escreva(contador+"\n")
-			contador++ 
-			Util.aguarde(100)
+		para(inteiro i=0; i<4; i++)
+		{ para(inteiro j=0; j<4; j++) {
+			se (i == j) {
+				matriz [i][j] = 1
+			}
+		}
+			
 		}
 	}
 }
@@ -18,9 +19,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 172; 
+ * @POSICAO-CURSOR = 72; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {matriz, 5, 10, 6}-{i, 7, 15, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

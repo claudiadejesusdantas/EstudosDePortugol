@@ -1,16 +1,19 @@
 programa
 {
-	inclua biblioteca Util
 	
 	funcao inicio()
 	{
-		inteiro contador = 0
+		logico expressaoLogica = (1 + 2 == 3)
+		escreva(expressaoLogica)
+		escreva("\n")
+		
+		expressaoLogica = (1 + 3 == 7)
+		escreva(expressaoLogica)
 
-		enquanto (contador<=100) {
-			escreva(contador+"\n")
-			contador++ 
-			Util.aguarde(100)
-		}
+		/*
+			O símbolo de = é o símbolo para atribuição de valores
+			O símbolo == é o simbolo para comparação de igualdade
+		*/
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -18,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 172; 
+ * @POSICAO-CURSOR = 184; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
