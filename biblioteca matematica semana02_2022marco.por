@@ -14,6 +14,7 @@ programa
 		escreva ("\n" + "a potencia do numero é: " + potenciaDoNumeroDigitado)
 	}
 }
+
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
